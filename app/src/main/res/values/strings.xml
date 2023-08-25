@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">diayr</string>
+    <string name="geo_permission_label">Приложению для правильной работы необходимо разрешение для доступа к службеГеоданые</string>
+    <string name="geo_service_disabled_dlg">Служба Геоданные отключена! Для правильной работы приложения необходимо ВКЛЮЧИТЬ службу Геоданные. Нажмите «Режим», или выберите «По всем источникам»</string>
+    <string name="run_geo_settings">Перейти в системные настройки…</string>
+
+    <string name="error_of_map_dialog_title_text">Ошибка карты</string>
+    <string name="error_on_startup_of_map">Ошибка при запуске карты</string>
+    <string name="route2patient_title">Оптимальный маршрут до обьекта</string>
+    <string name="route2patient_distance_msg">расстояние: %1$s км</string>
+    <string name="route2patient_duration_msg">время: %1$s мин</string>
+
+    <string name="OK" translatable="false">OK</string>
+    <string name="YES">Да</string>
+    <string name="NO">Нет</string>
+    <string name="CANCEL">Отмена</string>
+    <string name="next_comm">Далее…</string>
+
+    <string name="text_lang_ru" translatable="false">Русский</string>
+    <string name="text_lang_ky" translatable="false">Кыргызча</string>
+    <string name="change_language">Сменить язык</string>
+
+    <string name="today_at">Сегодня в</string>
+    <string name="yesterday_in">Вчера в</string>
+    <string name="before_yesterday_in">Позавчера в</string>
+
+    <string name="choice_login">Выберите логин</string>
+    <string name="input_me">Внести свое</string>
+
+    <string name="authentication_failed_msg">Неполадки при авторизации</string>
+    <string name="authentication_login_password_failed_msg">Неверные данные авторизации, попробуйте заново</string>
+    <string name="pending_request_msg">обработка…</string>
+    <string name="pending_process_failed_msg">Неполадки при обработке запроса</string>
+    <string name="logout_auth_token_failed_msg">Недействительный ключ сессии доступа</string>
+    <string name="necessary_login_in_again_msg">Необходимо заново зайти по логину и паролю</string>
+    <string name="internet_connection_problems_msg">Проверьте интернет соединение</string>
+
+    <string name="battery_optimization_title">Оптимизация батареи</string>
+    <string name="ignore_battery_optimization_msg">Оптимизация батареи для МП «%1$s» включена! Для стабильной работы приложения необходимо отключить режим оптимизации батареи. После нажатия на «%2$s», пожалуйста нажмите далее «ДА» или «РАЗРЕШИТЬ»</string>
+    <string name="ignore_battery_optimization_title">Отключить оптимизацию…</string>
+
+    <string name="overlay_screen_title">Разрешение наложения поверх окон!</string>
+    <string name="ignore_overlay_screen_title">Разрешить наложение…</string>
+    <string name="ignore_overlay_screen_msg">Разрешение наложения поверх окон для МП «%1$s» отключено! Для стабильной работы приложения необходимо включить разрешение наложения поверх окон. Пожалуйста нажмите «%2$s»</string>
+
+    <string name="internet_disabled_title">Мобильный интернет отключен!</string>
+    <string name="enable_internet_title">Включить моб. интернет…</string>
+    <string name="enable_internet_msg">МП «%1$s» обнаружило, что мобильный интернет отключен пользователем! Для работы приложения необходимо включить Мобильный интернет. Пожалуйста нажмите «%2$s»</string>
+    <string name="wifi_disabled_title">Wi-Fi отключен!</string>
+    <string name="wifi_internet_title">Включить Wi-Fi…</string>
+    <string name="wifi_internet_msg">МП «%1$s» обнаружило, что Wi-Fi отключен пользователем! Для работы приложения необходимо включить  WI-FI. Пожалуйста нажмите «%2$s»</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="salads">Салаты</string>
+    <string name="soups">Супы</string>
+    <string name="oriental_dishes">Восточные блюда</string>
+    <string name="european_cuisine">Европейская кухня</string>
+    <string name="chinese_cuisine">Китайская кухня</string>
+    <string name="desserts">Десерты</string>
+    <string name="beverages">Напитки</string>
+    <string name="kebabs">Шашлыки</string>
+    <string name="breakfast">Завтраки</string>
+    <string name="porridge">Каши</string>
+    <string name="snacks">Закуски</string>
+    <string name="pastes">Пасты</string>
+    <string name="pizza">Пиццы</string>
+    <string name="garnish">Гарниры</string>
+    <string name="flour">Пиццы/мучное</string>
+    <string name="menu">Меню</string>
+    <string name="som" translatable="false">\tсом</string>
+    <string name="gram" translatable="false">\tг</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+    <string name="delivery_addresses">Адреса доставки</string>
+    <string name="history_of_orders">История заказов</string>
+    <string name="settings">Настройки</string>
+    <string name="about_us">О нас</string>
+    <string name="contacts">Контакты</string>
+    <string name="faq">FAQ</string>
+    <string name="about_the_app">О приложении</string>
+    <string name="terms_of_use">Пользовательское соглашение</string>
+    <string name="output">Выход</string>
+    <string name="registration_order">Оформление заказа</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="address">Адрес</string>
+    <string name="kv_office">Кв/офис</string>
+    <string name="intercom">Домофон</string>
+    <string name="floor">Этаж</string>
+    <string name="entrance">Подъезд</string>
+    <string name="order_details">Детали заказа</string>
+    <string name="comments">Комментарий</string>
+    <string name="surrender">Сдача с</string>
+    <string name="pick_order">Заказ заберите по адресу:</string>
+    <string name="prepare_for">Приготовить к</string>
+    <string name="discount">Скидка</string>
+    <string name="dishes">Посуда</string>
+    <string name="cost_of_meals">Стоимость блюд</string>
+    <string name="status_order">Статус заказа</string>
+    <string name="viewing_status_order">Посмотреть статус заказа</string>
+    <string name="payment_amount">Сумма к оплате:</string>
+    <string name="on_main">На главную</string>
+    <string name="main">Главная</string>
+    <string name="intent" translatable="false">intent</string>
+    <string name="order_processing">Заказ в обработке</string>
+    <string name="order_accepted">Заказ принят</string>
+    <string name="transferred_kitchen">Передан на кухню</string>
+    <string name="transferred_courier">Передан курьеру</string>
+    <string name="delivered">Доставлено</string>
+    <string name="popular_dishes">Популярные блюда</string>
+    <string name="news_and_promotions">Новости</string>
+    <string name="news">Новости</string>
+    <string name="registration_order_on">Оформить заказ на %1$s сом</string>
+    <string name="payment_method">Способ оплаты</string>
+    <string name="delivery">Доставка</string>
+    <string name="pickup">Самовывоз</string>
+    <string name="history_order">История заказов</string>
+    <string name="in_cash">Наличными</string>
+    <string name="card_application"> Онлайн платеж </string>
+    <string name="card_restaurant">Картой курьеру (POS терминал) </string>
+    <string name="balanse_kg" translatable="false">Balance.kg</string>
+    <string name="o_money" translatable="false">O! Деньги</string>
+    <string name="megapey" translatable="false">Megapay</string>
+    <string name="m_bank" translatable="false">Mbank Online</string>
+    <string name="elsom" translatable="false">Элсом</string>
+    <string name="in_the_basket">В корзине %1$s сом</string>
+    <string name="address_delivery">Адреса доставки</string>
+    <string name="add_address">Добавить адрес</string>
+    <string name="on_map">На карте</string>
+
+    <string name="add_in_basket">Добавить в корзину</string>
+    <string name="added_to_basket">Добавлено в корзину</string>
+    <string name="one_dishes">%1$s блюда</string>
+    <string name="five_dishes">%1$s блюд</string>
+    <string name="any_som" translatable="false">%1$s сом</string>
+    <string name="any_percent" translatable="false">%1$s %%</string>
+
+    <string name="map">Карта</string>
+    <string name="search_current_location">Поиск текущего местоположения…</string>
+    <string name="basket_empty">Корзина пустая</string>
+    <string name="basket_empty_select_dishes_place">Корзина пустая, для оформления заказа необходимо выбрать блюда</string>
+    <string name="amount_paid_indicated_without_delivery">Сумма к оплате указана без доставки</string>
+    <string name="number_home">Номер дома</string>
+
+    <string name="text_obligatory_field">Обязательное поле</string>
+    <string name="error_invalid_phone">Телефонный номер внесен не до конца</string>
+    <string name="order_creat_time">Время создания заказа</string>
+    <string name="clean_basket">Очистить корзину</string>
+    <string name="clean">Очистить</string>
+    <string name="search_address">Поиск адресов</string>
+    <string name="open_page_instagram">Открыть страницу в Instagram</string>
+    <string name="open">Открыть</string>
+    <string name="your_acount_not_active_ets">Ваш аккаунт не активен! Для активации аккаунта необходимо оформить не менее 2-х заказов</string>
+    <string name="your_order_accepted">Ваш заказ по номер №%1$s "ПРИНЯТ"</string>
+    <string name="your_order_transferred_courier">Ваш заказ по номер №%1$s "ПЕРЕДАН КУРЬЕРУ"</string>
+    <string name="active_order">Активный заказ</string>
+    <string name="text_full" translatable="false">
+        <![CDATA[
+
+         <br>  <h4> Политика конфиденциальности Приложения «Дияр»</h4>    <br>
+            <p>
+                    \t  Сеть ресторанов «Дияр»
+            (далее – Разработчик), заботится о защите конфиденциальности информации, которая предоставляется Пользователями во время пользования мобильными
+            приложениями «Дияр Экспресс» и «Дияр Доставщик». В настоящей политике конфиденциальности под мобильными приложениями «Дияр Экспресс» и
+            «Дияр Доставщик» понимается Разработчик или его адреса в социальных сетях, электронной почты. Ниже определены принципы и способы обработки
+            информации, которая предоставляется пользователями мобильных приложений «Дияр Экспресс» и «Дияр Доставщик». Необходимо ознакомиться с этой
+            информацией до начала ее использования.
+           </p>
+         <br> <h5>Информация, которая может поступать от пользователей </h5>  <br>
+            <p>
+                  \t  Такая информация может содержать, не ограничиваясь, данные о фамилии, имени и отчестве пользователя, e-mail, номерах телефона, информация о логине
+            и пароле для доступа к отдельным функциям и сервисам мобильного приложения, информация о локации Пользователя, а именно информация о стране и (или)
+            городе нахождения Пользователя, время доступа, адрес запрашиваемой Страницы, информация об устройстве Пользователя, с помощью которого осуществляется
+            доступ к мобильному приложению.
+            </p>
+
+
+        <br> <h5>Условия пользования мобильным приложением</h5> <br>
+
+            <p>
+                 \t Пользуясь мобильными приложениями «Дияр Экспресс» и «Дияр Доставщик»,
+            Вы удостоверяете, что свободно и осознано признаете свое согласие с условиями настоящей политики конфиденциальности Разработчика в полном объеме. Владелец
+            мобильных приложений, а именно Разработчик, не передает и не предоставляет опубликованные Вами данные в мобильных приложениях «Дияр Экспресс» и
+            «Дияр Доставщик» третьим лицам, за исключением случаев передачи указанной пользователем информации исполнения заказов пользователя с целью доставки.
+            Любая информация о Пользователе, которую получает Разработчик, используется исключительно в целях:
+            <p>\t - предоставления услуг; </p>
+            <p>\t - для иных целей, не противоречащих законодательству в сфере правового регулирования работы с персональными данными. Факт регистрации Пользователя в
+                   мобильном приложении означает выражение Пользователем безоговорочного согласия с настоящей Политикой и указанными
+                   в ней условиями обработки его информации.
+            </p>
+
+         <br> <h5>Безопасность </h5>  <br>
+            <p>
+                 \t Мобильные приложения «Дияр Экспресс» и «Дияр Доставщик», связанные между собой его приложения пользуются сервером предоставленным Разработчиком для передачи
+                друг другу данных для оказания качественных услуг по доставке заказа пользователя.
+            </p>
+
+
+        <br> <h5>Товарные знаки</h5> <br>
+            <p>
+                 \t  Все защищенные наименования продуктов, товарные
+            знаки и знаки обслуживания, а также логотипы Разработчика, которые размещены в мобильных приложениях «Дияр Экспресс» и «Дияр Доставщик» используются лишь
+            с целью идентификации.
+
+            </p>
+
+
+         <br>  <h5>Информация детей </h5>  <br>
+            <p>
+                 \t  Разработчик серьезно относится к защите информации о детях и стремится защищать конфиденциальность указанной
+            информации. Мы призываем детей, не достигших 18 лет, не регистрироваться и не осуществлять пользование мобильными приложениями «Дияр Экспресс» и «Дияр Доставщик»
+            без участия родителей или опекунов, или иных законных представителей, а также не осуществлять каких-либо заказов и предоставлять какие-либо сведения о себе.
+            Правила использования обязывают родителей обеспечивать постоянный контроль пользования мобильными приложениями «Дияр Экспресс» и «Дияр Доставщик» детьми,
+            не достигшими 18 лет.
+            </p>
+
+         <br> <h5>Изменения в политике конфиденциальности</h5>  <br>
+            <p>
+                     \t Пользователь признает и соглашается, что регистрация Пользователя в мобильных приложениях
+            «Дияр Экспресс» и «Дияр Доставщик», установка на своем смарт-устройстве, создание учетной записи и последующее использование любых его служб, функционала означает
+            безоговорочное согласие пользователя со всеми пунктами настоящей Политики, безоговорочное принятие ее условий и полное согласие с условиями публичной оферты.
+            Продолжение Пользователем использования ресурсов мобильных приложений «Дияр Экспресс» и «Дияр Доставщик» после любых изменений настоящей Политики означает его
+            согласие с такими изменениями и/или дополнениями. Пользователь обязуется регулярно знакомиться с содержанием настоящей Политики в целях своевременного
+            ознакомления с ее изменениями. Ответственность за несвоевременное ознакомление и его последствия несет Пользователь. Разработчик оставляет за собой право
+            самостоятельно и в любое время вносить изменения в условия этой политики конфиденциальности.
+            </p>
+
+        ]]>
+    </string>
+    <string name="accept_agreement">Принять соглашение</string>
+    <string name="dark_mode">Темный режим</string>
+
+    <string name="really_exit_profile">Выход из профиля приложения приведет к необходимости повторной авторизации</string>
+    <string name="exit_profile">Выход из профиля</string>
+    <string name="do_call_btn_txt">Позвонить</string>
+    <string name="delivery_service">Служба доставки</string>
+    <string name="diyar_express">Дияр Экспресс</string>
+    <string name="diyar_restaurant">Дияр ресторан</string>
+    <string name="diyar_banquet_hall">Дияр Банкет Холл</string>
+    <string name="versailles_banquet_hall">Версаль Банкет Холл</string>
+    <string name="delivery_service_number" translatable="false">+996777997799</string>
+    <string name="diyar_express_number" translatable="false">+996559694777</string>
+    <string name="diyar_restaurant_number" translatable="false">+996550555999</string>
+    <string name="diyar_banquet_hall_number" translatable="false">+996555511115</string>
+    <string name="versailles_banquet_hall_number" translatable="false">+996555555508</string>
+    <string name="deliveryd_price">Цена за доставку сотавляет %1$s</string>
+    <string name="partial">Новый платеж</string>
+    <string name="pending">Ожидание плательщика или платежной системы</string>
+    <string name="refunded">По платежу прошел возврат</string>
+    <string name="revoked">По платежу прошла отмена</string>
+    <string name="ok">Платеж успешно завершен</string>
+    <string name="failed">Платеж в ошибке</string>
+    <string name="incomplete">Истекло время жизни платежа</string>
+    <string name="error_chooce_address_in_list">Неверный адрес выберите из списка</string>
+
+</resources>

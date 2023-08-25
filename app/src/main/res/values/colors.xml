@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="pdlg_color_black">#212121</color>
+    <color name="pdlg_color_blue">#1976D2</color>
+    <color name="pdlg_color_gray">#9E9E9E</color>
+    <color name="pdlg_color_green">#388E3C</color>
+    <color name="pdlg_color_red">#d50000</color>
+    <color name="pdlg_color_white">#eeeeee</color>
+    <color name="pdlg_color_yellow">#FFEB3B</color>
+    <color name="pdlg_color_orange">#FF5722</color>
+
+    <color name="blue">#2C86F7</color>
+    <color name="grey">#424242</color>
+
+    <color name="default_color_orange">#FF7F37</color>
+    <color name="default_color_purple">#777E9B</color>
+    <color name="default_color_purple_20">#E8EEFA</color>
+    <color name="default_color_text_purple_50">#5C777E9B</color>
+    <color name="default_color_text_gray">#ACAFBA</color>
+    <color name="default_color_text_black">#25262C</color>
+    <color name="default_color_back">#FAFBFF</color>
+    <color name="background_activity">#60E5E5E5</color>
+    <color name="time_background">#F9F9FD</color>
+    <color name="tab_registration_color">#F9F9FB</color>
+    <color name="popular_custom_view_color">#F5F7FF</color>
+    <color name="final_white">#FFFFFF</color>
+    <color name="default_color_red">#EB5757</color>
+    <color name="grey_search_list">#ECECEC</color>
+
+</resources>
