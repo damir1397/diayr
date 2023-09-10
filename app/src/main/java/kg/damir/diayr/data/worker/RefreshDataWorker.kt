@@ -11,9 +11,6 @@ import kg.damir.diayr.data.database.MenuCategoryDbModel
 import kg.damir.diayr.data.database.MenuDbModel
 import kg.damir.diayr.data.database.PriceContainerDbModel
 import kg.damir.diayr.data.network.ApiFactory
-import kg.damir.diayr.data.network.model.MenuCategory
-import kg.damir.diayr.data.network.model.PriceContainer
-
 import kotlinx.coroutines.delay
 
 class RefreshDataWorker(context: Context, workerParameters: WorkerParameters) :
@@ -26,7 +23,8 @@ class RefreshDataWorker(context: Context, workerParameters: WorkerParameters) :
         while (true) {
             try {
                 val getMenuList = apiService.getMenuList()
-               val list =  getMenuList.map {
+                println("getMenuListn "+getMenuList)
+               val list =  getMenuList.result?.client_get_menu_list?.map {
                    val menuCategoryDbModel = MenuCategoryDbModel(
                        menuCategoryId = it.menu_category_id?.id ?: 0,
                        name_en = it.menu_category_id?.name_en ?: "",
@@ -56,12 +54,12 @@ class RefreshDataWorker(context: Context, workerParameters: WorkerParameters) :
                         popular = it.popular ?: false
 
                     )
-                }
+                } ?: arrayListOf()
                 coinInfoDao.insertMenuList(list)
             } catch (e: Exception) {
                 Log.e("worker" ,e.message.toString())
             }
-            delay(100)
+            delay(1000*60*60)
         }
     }
 

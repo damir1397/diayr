@@ -3,10 +3,6 @@ package kg.damir.diayr.data.database
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.google.gson.annotations.Expose
-import com.google.gson.annotations.SerializedName
-import kg.damir.diayr.data.network.model.MenuCategory
-import kg.damir.diayr.data.network.model.PriceContainer
 
 @Entity(tableName = "menu")
 data class MenuDbModel(

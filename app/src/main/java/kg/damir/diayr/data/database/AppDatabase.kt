@@ -10,7 +10,7 @@ import androidx.room.RoomDatabase
         MenuDbModel::class,
         MenuCategoryDbModel::class,
         PriceContainerDbModel::class
-    ], version = 4, exportSchema = false
+    ], version = 5, exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
     companion object {

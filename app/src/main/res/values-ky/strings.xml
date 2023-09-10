@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="geo_permission_label">Туура иш колдонуу үчүн жайгашкан жер дайындары кызмат кирүү уруксат керек</string>
+    <string name="geo_service_disabled_dlg">Жайгашкан жер дайындары кызматы өчүрүлдү! Колдонуу туура иштөөсү үчүн Жайгашкан жер дайындары кызматы кошуу зарыл. "Режимди" баскыла же "Бардык булактары үчүн" тандоо</string>
+    <string name="run_geo_settings">Системалык тууралоолорго өттүү…</string>
+
+    <string name="error_of_map_dialog_title_text">Карта катасы</string>
+    <string name="error_on_startup_of_map">Карта башталууда ката</string>
+    <string name="route2patient_title">Обьектке чейин мыкты маршрут</string>
+    <string name="route2patient_distance_msg">аралык: %1$s км</string>
+    <string name="route2patient_duration_msg">убакыт: %1$s мин</string>
+
+    <string name="YES">Ооба</string>
+    <string name="NO">Жок</string>
+    <string name="CANCEL">Жокко чыгаруу</string>
+    <string name="next_comm">Андан ары…</string>
+
+    <string name="change_language">Тилди алмаштыруу</string>
+
+    <string name="today_at">Бүгүн</string>
+    <string name="yesterday_in">Кечээ</string>
+    <string name="before_yesterday_in">Мурда күнү</string>
+
+    <string name="choice_login">Логинди тамдоо</string>
+    <string name="input_me">Өзүнүкүн киргизүү</string>
+
+    <string name="authentication_failed_msg">Кирүүдө көйгөйлөр</string>
+    <string name="authentication_login_password_failed_msg">Кирүү учурунда туура эмес маалыматтар, кайрадан аракет кылып көрүнүз</string>
+    <string name="pending_request_msg">Иштеп чыгуу…</string>
+    <string name="pending_process_failed_msg">Суроо иштетүү менен көйгөйлөр</string>
+    <string name="logout_auth_token_failed_msg">Сессиясынын ачкычы жараксыз</string>
+    <string name="necessary_login_in_again_msg">Логин жана сырсөзүн кайра-киргүзүү</string>
+    <string name="internet_connection_problems_msg">Интернет байланышын текшериниз</string>
+
+    <string name="battery_optimization_title">Батареяны оптималдаштыруу</string>
+    <string name="ignore_battery_optimization_msg">«%1$s» МК батереясынын оптималдаштыруу киргизилген! Колдонмо туруктуу иштетүү үчүн батареянын оптималдаштыруу режимин өчүрүү зарыл. \n «%2$s» баскандан кийин , «ДА» же «РАЗРЕШИТЬ» кнопкасын баскыла</string>
+    <string name="ignore_battery_optimization_title">Оптималдаштыруу өчүрүү …</string>
+
+    <string name="overlay_screen_title">Разрешение наложения поверх окон!</string>
+    <string name="ignore_overlay_screen_title">Разрешить наложение…</string>
+    <string name="ignore_overlay_screen_msg">Разрешение наложения поверх окон для МП «%1$s» отключено! Для стабильной работы приложения необходимо включить разрешение наложения поверх окон. Пожалуйста нажмите «%2$s»</string>
+
+    <string name="internet_disabled_title">Мобилдик интернет өчүрүлгөн!</string>
+    <string name="enable_internet_title">Мобилдик интернетти иштетүү…</string>
+    <string name="enable_internet_msg">МК «%1$s» табылган, мобилдик интернет колдонуучу аркылуу өчүрүлгөн! Колдонмонун тура иштесүү үчүн мобилдик интернетти иштеттүү зарыл. Сураныч «%2$s» баскыла</string>
+    <string name="wifi_disabled_title">Wi-Fi өчүрүлгөн!</string>
+    <string name="wifi_internet_title">Wi-Fi иштетүү…</string>
+    <string name="wifi_internet_msg">МП «%1$s» табылган, Wi-Fi колдонуучу аркылуу өчүрүлгөн! Колдонмонун тура иштесүү үчүн  WI-FI иштеттүү зарыл. Сураныч «%2$s» баскыла</string>
+    <string name="salads">Салаттар</string>
+    <string name="soups">Шорполор</string>
+    <string name="oriental_dishes">Чыгыш тамактары</string>
+    <string name="european_cuisine">Европа ашканасы</string>
+    <string name="chinese_cuisine">Кытай ашканасы</string>
+    <string name="desserts">Десерттер</string>
+    <string name="beverages">Суусундуктар</string>
+    <string name="kebabs">Кебаб</string>
+    <string name="breakfast">Эртең мененки тамактар</string>
+    <string name="porridge">Каши</string>
+    <string name="snacks">Закускалар</string>
+    <string name="pastes">Пасты</string>
+    <string name="pizza">Пиццалар</string>
+    <string name="garnish">Гарнирлер</string>
+    <string name="flour">Пиццалар/Мучнойлор</string>
+    <string name="menu">Меню</string>
+    <string name="basket">Себет</string>
+    <string name="profile">Профиль</string>
+    <string name="delivery_addresses">Жеткирүү даректери</string>
+    <string name="history_of_orders">Буйруктардын тарыхы</string>
+    <string name="settings">Орнотуулар</string>
+    <string name="about_us">Биз жөнүндө</string>
+    <string name="contacts">Байланыштар</string>
+    <string name="faq">FAQ</string>
+    <string name="about_the_app">Колдонмо жөнүндө</string>
+    <string name="terms_of_use">Пайдалануу шарттары</string>
+    <string name="output">Чыгуу</string>
+    <string name="registration_order">Тапшырыкты тариздөө</string>
+    <string name="your_name">Сиздин атыңыз</string>
+    <string name="phone_number">Телефон номуру</string>
+    <string name="address">Дарек</string>
+    <string name="kv_office">Кв/кеңсе</string>
+    <string name="intercom">Домофон</string>
+    <string name="floor">Кабат</string>
+    <string name="entrance">Кирүү</string>
+    <string name="order_details">Заказдын чоо-жайы</string>
+    <string name="comments">Комментарий</string>
+    <string name="surrender">Тапшыруу </string>
+    <string name="pick_order">Буйрутмаңызды төмөнкү жерден алып кетиңиз:</string>
+    <string name="prepare_for">Даярдоо</string>
+    <string name="discount">Арзандатуу</string>
+    <string name="dishes">Идиштер</string>
+    <string name="cost_of_meals">Тамак-аштын баасы</string>
+    <string name="status_order">Заказдын абалы</string>
+    <string name="viewing_status_order">Буйрутманын абалын көрүү</string>
+    <string name="payment_amount">Төлөмдүн суммасы:</string>
+    <string name="on_main">Башкы</string>
+    <string name="main">Башкы</string>
+    <string name="order_processing">Иштөөдө буйрук</string>
+    <string name="order_accepted">Заказ кабыл алынат</string>
+    <string name="transferred_kitchen">Ашканага которулган</string>
+    <string name="transferred_courier">Курьерге которулган</string>
+    <string name="delivered">Жеткирилген</string>
+    <string name="popular_dishes">Популярдуу тамактар</string>
+    <string name="news_and_promotions">Жаңылыктар</string>
+    <string name="news">Бардык жаңылыктар</string>
+    <string name="registration_order_on">%1$s сомго тапшыруну оформитету</string>
+    <string name="payment_method">Төлөө ыкмасы</string>
+    <string name="delivery">Жеткирүү</string>
+    <string name="pickup">Ала кетүү</string>
+    <string name="history_order">Буйруктардын тарыхы</string>
+    <string name="in_cash">Накталай</string>
+    <string name="card_application">Онлайн төлөм</string>
+    <string name="card_restaurant">Карта аркылуу чабарманга (POS терминал)</string>
+    <string name="address_delivery">Жеткирүү даректери</string>
+    <string name="add_address">Дарек кошуңуз</string>
+    <string name="on_map">Картада</string>
+
+    <string name="in_the_basket">%1$s сом себетте</string>
+    <string name="add_in_basket">Себетке кошуу</string>
+    <string name="added_to_basket">Себетке кошулду</string>
+    <string name="one_dishes">%1$s тамак-аш</string>
+    <string name="five_dishes">%1$s тамак-аш</string>
+
+    <string name="map">Карта</string>
+    <string name="search_current_location">Учурдагы жайгашкан жерди издөө…</string>
+    <string name="basket_empty">Себет бош</string>
+    <string name="basket_empty_select_dishes_place">Себет бош, буйрутма берүү үчүн тамактарды тандашыңыз керек</string>
+    <string name="amount_paid_indicated_without_delivery">Төлөмдүн суммасы жеткирүүсүз көрсөтүлгөн</string>
+
+    <string name="text_obligatory_field">Милдеттүү талаа</string>
+    <string name="error_invalid_phone">Киргизилген номер толук жазылган жок</string>
+    <string name="number_home">Үйдүн номери</string>
+    <string name="order_creat_time">Заказдын түзүү убактысы</string>
+    <string name="clean_basket">Таштанды бошоту</string>
+    <string name="clean">Тазало</string>
+    <string name="search_address">Даректерин издөө</string>
+    <string name="open_page_instagram">Инстаграмда баракча ачуу</string>
+    <string name="open">Ачуу</string>
+    <string name="your_acount_not_active_ets">Сиздин каттоо эсебиңиз активдүү эмес! Активдештирүү үчүн эки заказ кылыңыз</string>
+    <string name="your_order_accepted">№%1$s номери боюнча заказыңыз "КАБЫЛ АЛЫНДЫ"</string>
+    <string name="your_order_transferred_courier">№%1$s номери боюнча "КУРЬЕРГУ ТАПШЫРЫЛДЫ"</string>
+    <string name="active_order">Активдүү заказ</string>
+    <string name="accept_agreement">Келишимди кабыл алуу</string>
+    <string name="dark_mode">Караңгы режим</string>
+    <string name="really_exit_profile">Колдонмодон чугуу кайрадан авторизацииялоо зарыл</string>
+    <string name="exit_profile">Профилден чыгуу</string>
+    <string name="do_call_btn_txt">Позвонить</string>
+    <string name="delivery_service">Служба доставки</string>
+    <string name="diyar_express">Дияр Экспресс</string>
+    <string name="diyar_restaurant">Дияр ресторан</string>
+    <string name="diyar_banquet_hall">Дияр Банкет Холл</string>
+    <string name="versailles_banquet_hall">Версаль Банкет Холл</string>
+    <string name="deliveryd_price">Цена за доставку сотавляет %1$s</string>
+    <string name="partial">Новый платеж</string>
+    <string name="pending">Ожидание плательщика или платежной системы</string>
+    <string name="refunded">По платежу прошел возврат</string>
+    <string name="revoked">По платежу прошла отмена</string>
+    <string name="ok">Платеж успешно завершен</string>
+    <string name="failed">Платеж в ошибке</string>
+    <string name="incomplete">Истекло время жизни платежа</string>
+    <string name="error_chooce_address_in_list">Неверный адрес выберите из списка</string>
+</resources>

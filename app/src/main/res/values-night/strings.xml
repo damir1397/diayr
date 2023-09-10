@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deliveryd_price">Цена за доставку сотавляет!</string>
+    <string name="partial">Новый платеж</string>
+    <string name="pending">Ожидание плательщика или платежной системы</string>
+    <string name="refunded">По платежу прошел возврат</string>
+    <string name="revoked">По платежу прошла отмена</string>
+    <string name="ok">Платеж успешно завершен</string>
+    <string name="failed">Платеж в ошибке</string>
+    <string name="incomplete">Истекло время жизни платежа</string>
+</resources>

@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">diayr</string>
+    <string name="app_name" translatable="false">Дияр Экспресс</string>
+
     <string name="geo_permission_label">Приложению для правильной работы необходимо разрешение для доступа к службеГеоданые</string>
     <string name="geo_service_disabled_dlg">Служба Геоданные отключена! Для правильной работы приложения необходимо ВКЛЮЧИТЬ службу Геоданные. Нажмите «Режим», или выберите «По всем источникам»</string>
     <string name="run_geo_settings">Перейти в системные настройки…</string>

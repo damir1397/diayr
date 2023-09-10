@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentDelivery">
+
+    <fragment
+        android:id="@+id/fragmentDelivery"
+        android:name="kg.cdt.diyar_guest.presentation.FragmentDelivery"
+        android:label="FragmentDelivery"
+        tools:layout="@layout/fragment_delivery">
+        <action
+            android:id="@+id/action_fragmentDelivery_to_fragmentPickup"
+            app:destination="@id/fragmentPickup"
+            app:popUpTo="@id/fragmentPickup"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_fragmentDelivery_to_mapFragment"
+            app:destination="@id/mapFragment"
+            app:popUpTo="@id/mapFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPickup"
+        android:name="kg.cdt.diyar_guest.presentation.FragmentPickup"
+        android:label="FragmentPickup"
+        tools:layout="@layout/fragment_pickup">
+        <action
+            android:id="@+id/action_fragmentPickup_to_fragmentDelivery"
+            app:destination="@id/fragmentDelivery"
+            app:popUpTo="@id/fragmentDelivery"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="kg.cdt.diyar_guest.presentation.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment_to_fragmentDelivery"
+            app:destination="@id/fragmentDelivery"
+            app:popUpTo="@id/fragmentDelivery"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

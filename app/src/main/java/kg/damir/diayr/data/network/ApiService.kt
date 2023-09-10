@@ -1,14 +1,13 @@
 package kg.damir.diayr.data.network
 
-import kg.damir.diayr.data.network.model.MenuClientDto
-import retrofit2.http.GET
+import kg.damir.diayr.data.network.model.BaseResponseDto
 import retrofit2.http.POST
 
 
 interface ApiService {
 
     @POST("rest/users/get-menu-list")
-    fun getMenuList(): List<MenuClientDto>
+   suspend fun getMenuList(): BaseResponseDto
 
 
     companion object {
