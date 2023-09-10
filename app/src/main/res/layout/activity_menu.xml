@@ -34,6 +34,8 @@
                 app:title="@string/menu"
                 tools:ignore="RtlSymmetry" />
 
+            \
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/tab_layout_recycle_view"
                 android:layout_width="match_parent"

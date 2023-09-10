@@ -72,6 +72,7 @@
 
                 <TextView
                     android:id="@+id/menu_title"
+                    style="@style/text_view_font"
                     android:layout_width="162dp"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
@@ -86,6 +87,7 @@
 
                     <TextView
                         android:id="@+id/menu_gram"
+                        style="@style/text_view_font"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -100,6 +102,7 @@
 
                     <TextView
                         android:id="@+id/menu_prise"
+                        style="@style/text_view_font"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginVertical="5dp"
@@ -134,18 +137,21 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginStart="10dp"
+                        android:background="@drawable/menu_plus_minus_border"
                         android:contentDescription="@string/todo"
                         android:padding="10dp"
+                        android:src="@drawable/minus"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/menu_count"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="17dp"
                         android:textColor="@color/default_color_orange"
                         android:textSize="15sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/plus_count"
                         app:layout_constraintStart_toEndOf="@id/minus_count"
@@ -156,8 +162,10 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginEnd="10dp"
+                        android:background="@drawable/menu_plus_minus_border"
                         android:contentDescription="@string/todo"
                         android:padding="10dp"
+                        android:src="@drawable/plus"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

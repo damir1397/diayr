@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'kg.damir.diayr'
+    namespace 'kg.damir.diyar'
     compileSdk 33
 
     defaultConfig {
-        applicationId "kg.damir.diayr"
+        applicationId "kg.damir.diyar"
         minSdk 24
         targetSdk 33
         versionCode 1
