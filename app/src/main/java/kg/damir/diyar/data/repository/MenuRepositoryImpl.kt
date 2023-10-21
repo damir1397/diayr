@@ -2,7 +2,6 @@ package kg.damir.diyar.data.repository
 
 import android.app.Application
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.Transformations
 import androidx.work.ExistingWorkPolicy
 import androidx.work.WorkManager
 import kg.damir.diyar.data.database.AppDatabase
@@ -38,7 +37,7 @@ class MenuRepositoryImpl(
             }
         }
     }
-
+k
     override fun loadData() {
         val workManager = WorkManager.getInstance(application)
         workManager.enqueueUniqueWork(

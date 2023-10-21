@@ -7,6 +7,5 @@ import kg.damir.diyar.data.network.model.MenuClientDto
 interface MenuRepository {
     fun getMenuList(): LiveData<List<MenuClientDto>>
     fun getMenuCategoryList(): LiveData<List<MenuCategoryDto>>
-
     fun loadData()
 }
